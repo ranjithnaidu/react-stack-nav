@@ -1,5 +1,7 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 import invariant from 'invariant'
+
+import PropTypes from 'prop-types'
 
 function makeStackFromPathname(pathname) {
   const pathArray = pathname.split('/')
